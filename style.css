@@ -16,8 +16,8 @@ header{
 }
 
 #raccoonphoto{
-    height: 300px;
-    width: 400px;
+    max-width: 40%;
+    height: auto;
     display: inline;
     padding: 20px;
     border: 10px solid lightsteelblue;
@@ -34,7 +34,6 @@ section{
     margin: 20px auto;
     border: 15px solid lightskyblue;
     background-color: lightsteelblue;
-    height: 360px;
 }
 
 ul{
@@ -79,4 +78,22 @@ input[type=text], select, textarea {
       background-color: lightgoldenrodyellow;
       color: darkblue;
       border: solid 10px lightskyblue;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    border-top: 10px groove lightskyblue;
+    background-color: lightsteelblue;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;    
+  }
+
+  @media screen and (max-width: 992px) {
+    .section{
+      width: 50%
+    }
   }
